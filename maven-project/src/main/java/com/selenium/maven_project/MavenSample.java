@@ -22,21 +22,19 @@ public class MavenSample {
 		 driver.get("http://connect.maveric-systems.com/index.php/site/login");
 		WebElement username = driver.findElement(By.xpath("//input[@id='LoginForm_username']"));
 		username.sendKeys("salmasultanam");
-		
+
+Thread.sleep(2000);
 		
 	WebElement password = driver.findElement(By.xpath("//input[@id='LoginForm_password']"));
-password.sendKeys("");
+password.sendKeys("aaaaa");
 
-WebElement password1 = driver.findElement(By.xpath("//input[@id='LoginForm_password']"));
-password.sendKeys("");
 
-WebElement password11 = driver.findElement(By.xpath("//input[@id='LoginForm_password']"));
-password.sendKeys("");
-Thread.sleep(2000);
 
 Thread.sleep(2000);
 
 Thread.sleep(2000);
+
+
 		
 		
 	
