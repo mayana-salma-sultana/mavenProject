@@ -30,6 +30,9 @@ password.sendKeys("");
 WebElement password1 = driver.findElement(By.xpath("//input[@id='LoginForm_password']"));
 password.sendKeys("");
 
+WebElement password11 = driver.findElement(By.xpath("//input[@id='LoginForm_password']"));
+password.sendKeys("");
+Thread.sleep(2000);
 
 Thread.sleep(2000);
 		
